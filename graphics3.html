@@ -1,0 +1,33 @@
+<!Doctype>
+<html>
+<head> SVG Animation</head>
+<title> Animation </title>
+
+<body>
+    <h1> Animation <h1>
+	
+	<h3> circle </h3>
+	<p> let's move the circle </p>
+	
+	   <svg width='400' height='400'>
+	     <g>
+		    <circle cx='100' cy='100' r='50' stroke='red'
+			fill='yellow'/> </circle>
+			<animateMotion path='M 0 0 V 0 H 100 Z' dur='1s'/>
+			repeatCount = '25'/>
+		</g>
+		 <g>
+		    <circle cx='100' cy='100' r='40' stroke='red'
+			fill='green'/> </circle>
+			<animateMotion path='M 0 0 V 0 H 200 Z' dur='3s'/>
+			repeatCount = '25'/>
+		</g>
+	   </svg>
+	   <h2> Moving a shape in a square path </h2> 
+	   <svg width='400' height='300'>
+	        <g>
+			    <rect width='70' height='30'>
+				<animateMotion path='M 10 10 H 300 V 200 H 0 Z' dur='3s'/>
+			repeatCount = '2'/>
+		    </g>
+		</svg>
